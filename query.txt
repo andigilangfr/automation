@@ -1,0 +1,9 @@
+SELECT e.emp_name, e.emp_status FROM tbl_employee e
+
+SELECT e.emp_name, i.emp_income FROM tbl_employee e
+JOIN tbl_income i ON i.emp_code = e.emp_code
+WHERE e.emp_status = 'R'
+
+SELECT e.emp_code, e.emp_name, e.emp_status, i.emp_income FROM tbl_employee e
+JOIN tbl_income i ON i.emp_code = e.emp_code
+ORDER BY i.emp_income DESC
