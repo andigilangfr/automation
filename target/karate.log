@@ -1,0 +1,44 @@
+10:47:23.180 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+10:47:25.087 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 276
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"userId":"1","id":"1","title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto"}
+
+10:47:25.967 [main]  DEBUG com.intuit.karate - response time in milliseconds: 875
+1 < 201
+1 < Date: Mon, 29 May 2023 03:47:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 293
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685332092
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"125-/g0n83nVfsY0pu1/x3bMKFT7EnI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ryPuwAeuPAowX3VpPmfqim%2F7S6iDDXCH7fVXgYKnb6dUEmX70bb1c8LfObjSUMEhOOzWoQ48pTYHGpwNUeq21jLW9vNv%2FkyX2KpCKNTBYnrjCKOVn4VKyyaPHvTK6asZEaK0TZx%2B%2FvAPwRoL00s%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cebc1898eea89c2-SIN
+{
+  "userId": "1",
+  "id": 101,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto"
+}
+
+10:47:26.654 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) placeholder.feature
