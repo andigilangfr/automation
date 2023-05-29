@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8DDB6253B187D34F2712993131DA2632",
+  "keywordClasses": [
+    {
+      "name": "com.saucelabs.Constant",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
